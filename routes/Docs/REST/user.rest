@@ -1,0 +1,41 @@
+GET http://127.0.0.1:8000/api/user
+
+
+###
+
+POST http://127.0.0.1:8000/api/user
+Accept: application/json
+Content-Type: application/json
+
+{
+"name": "Federico Villa",
+"email": "fede@gmail.com",
+"password": "esunpassword"
+}
+
+
+###
+
+GET http://127.0.0.1:8000/api/user/3
+Accept: application/json
+Content-Type: application/json
+
+
+###
+PUT http://127.0.0.1:8000/api/user/4
+Accept: application/json
+Content-Type: application/json
+
+{   
+    "name": "Cesar Desco",
+    "email": "cesardesco@gmail.com",
+    "password": "Wertyqwer"
+}
+
+
+###
+
+DELETE http://127.0.0.1:8000/api/user/4
+Accept: application/json
+Content-Type: application/json
+
